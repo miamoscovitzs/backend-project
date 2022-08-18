@@ -22,6 +22,11 @@ const updateBooks= async function (req, res) {
     //     { author: "SK"} , //condition
     //     { $set: data } //update in data
     //  )
+    // this is my solution
+    // this is judst a cooment for demo purpose
+    // problem 1 code
+    //problem 2 code
+    //problem 3 code
     let allBooks= await BookModel.findOneAndUpdate( 
         { authorName: "ABC"} , //condition
         { $set: data }, //update in data

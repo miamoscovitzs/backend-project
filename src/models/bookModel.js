@@ -4,7 +4,7 @@ const bookSchema = new mongoose.Schema( {
     bookName: String, 
     authorName: String, 
     tags: [String],
-    
+    // another dummy comment
     isPublished: Boolean,
     prices: {
         indianPrice: String,
